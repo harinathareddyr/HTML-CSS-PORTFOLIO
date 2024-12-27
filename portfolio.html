@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Harinatha Reddy - Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 0;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: #007BFF;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .projects, .skills, .education {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .project, .skill, .education-item {
+            flex: 1 1 calc(50% - 1rem);
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .project, .skill, .education-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>R Harinatha Reddy</h1>
+        <p>Email: <a href="mailto:harinatha778@gmail.com">harinatha778@gmail.com</a> | Phone: 7780295590</p>
+        <p><a href="https://www.linkedin.com/in/rachapalle-harinatha-reddy-463a54261" target="_blank">LinkedIn Profile</a></p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>To seek challenging opportunities where I can fully use my skills for the success of the organization. Seeking an entry-level position to leverage hands-on experience with Java, SQL, and Spring Boot, and contribute to innovative projects in a collaborative team environment. Eager to learn and grow in a dynamic software development role.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="education-item">
+                <h3>Sri Venkateswara College Of Engineering And Technology (SVCET)</h3>
+                <p>BTech (Electronics and Communication Engineering) - JNTUA</p>
+                <p>2020-2024 | 8.36 CGPA</p>
+            </div>
+            <div class="education-item">
+                <h3>Priyadarsini Junior College</h3>
+                <p>MPC - Board of Intermediate Education</p>
+                <p>2020 | 8.92 CGPA</p>
+            </div>
+            <div class="education-item">
+                <h3>Sree Vidyanikethan HS Piler</h3>
+                <p>SSC (10th)</p>
+                <p>2018 | 8.2 GPA</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Portfolio Website Development</h3>
+                <p>Technologies Used: HTML, CSS</p>
+                <p>Created a personal portfolio website showcasing projects, skills, and accomplishments. Designed a responsive layout ensuring compatibility across devices and browsers. Focused on clean design principles and optimized load times for a user-friendly experience.</p>
+            </div>
+            <div class="project">
+                <h3>Chest X-ray Imaging System for Early Detection of Tuberculosis</h3>
+                <p>Technologies Used: Convolutional Neural Network (CNN), Machine Learning, Data Augmentation, X-ray Imaging</p>
+                <p>Developed a system to classify chest X-rays as normal or abnormal for early detection of tuberculosis. Leveraged CNNs for image processing and applied data augmentation techniques to improve model robustness. Achieved reliable and clinically relevant results using metrics such as F1-score, precision, and accuracy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML/CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Java</div>
+            <div class="skill">Core Java</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Spring Boot</div>
+            <div class="skill">OOP's</div>
+            <div class="skill">MySQL Workbench</div>
+            <div class="skill">MS Office, Word, Excel, PowerPoint</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Address: Chichilivari Palli, Piler(M), Annamayya(Dist.), Andhra Pradesh, India, 517234</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 R Harinatha Reddy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
